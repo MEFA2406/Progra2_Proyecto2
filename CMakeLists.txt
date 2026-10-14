@@ -3,4 +3,6 @@ project(Proyecto2)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Proyecto2 main.cpp)
+add_executable(Proyecto2 main.cpp
+        Nodo.h
+        Lista.h)
